@@ -1,10 +1,10 @@
-# 💼 Finance Follow-Up Email Agent
+#  Finance Follow-Up Email Agent
 
 An AI-powered agent that automatically generates and dispatches personalised follow-up emails for overdue invoices — with tone escalation from warm reminder to stern final notice, a Streamlit dashboard, full audit logging, and dry-run safety mode.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -20,7 +20,7 @@ An AI-powered agent that automatically generates and dispatches personalised fol
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 finance-followup-agent/
@@ -63,7 +63,7 @@ finance-followup-agent/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repository
 
@@ -113,7 +113,7 @@ python main.py --file path/to/invoices.csv --send
 
 ---
 
-## 📊 Streamlit Dashboard
+##  Streamlit Dashboard
 
 ```bash
 streamlit run dashboard/app.py
@@ -128,7 +128,7 @@ Opens at `http://localhost:8501`. Features:
 
 ---
 
-## 🔔 Tone Escalation Matrix
+##  Tone Escalation Matrix
 
 | Stage | Trigger | Tone | Key Message | CTA |
 |---|---|---|---|---|
@@ -136,11 +136,11 @@ Opens at `http://localhost:8501`. Features:
 | **Stage 2** | 8–14 days overdue | Polite but Firm | Payment still pending | Confirm payment date |
 | **Stage 3** | 15–21 days overdue | Formal & Serious | Escalating concern; mention credit impact | Respond within 48 hrs |
 | **Stage 4** | 22–30 days overdue | Stern & Urgent | Final reminder before escalation | Pay immediately or call |
-| **Escalated** | 30+ days | ⚠️ No auto-email | Flagged for legal/finance review | Assign to manager |
+| **Escalated** | 30+ days | !!! No auto-email | Flagged for legal/finance review | Assign to manager |
 
 ---
 
-## 📧 Sample Email Output
+##  Sample Email Output
 
 **Stage 1 — Warm & Friendly:**
 ```
@@ -155,7 +155,7 @@ We understand things can get busy — if you've already processed this payment,
 please disregard this message. Otherwise, you can complete payment using the link
 below:
 
-👉 https://pay.example.com/INV-2024-001
+--> https://pay.example.com/INV-2024-001
 
 If you have any questions, feel free to reach out at finance@yourcompany.com
 or +91-11-2345-6789.
@@ -180,7 +180,7 @@ remit payment within 24 hours will necessitate escalation to our legal and
 recovery team, which may impact your credit terms and result in additional costs.
 
 Please act immediately:
-👉 https://pay.example.com/INV-2024-005
+--> https://pay.example.com/INV-2024-005
 
 Or contact us directly: +91-54321-09876
 
@@ -190,7 +190,7 @@ Finance Team | Acme Corp
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v
@@ -204,7 +204,7 @@ Tests cover:
 
 ---
 
-## ⏰ Scheduled Runs
+##  Scheduled Runs
 
 ```bash
 python scheduler.py
@@ -219,7 +219,7 @@ For production, consider running via:
 
 ---
 
-## 🔐 Security
+##  Security
 
 See [`docs/TECH_STACK.md`](docs/TECH_STACK.md) for full security documentation. Summary:
 
@@ -251,11 +251,11 @@ See [`docs/TECH_STACK.md`](docs/TECH_STACK.md) for full security documentation. 
 
 ---
 
-## 📋 Environment Variables
+##  Environment Variables
 
 | Variable | Required | Default | Description |
 |---|---|---|---|
-| `ANTHROPIC_API_KEY` | ✅ | — | Anthropic API key |
+| `ANTHROPIC_API_KEY` |  | — | Anthropic API key |
 | `LLM_MODEL` | | `claude-sonnet-4-20250514` | Model to use |
 | `EMAIL_MODE` | | `dry_run` | `dry_run` / `smtp` / `sendgrid` |
 | `SMTP_HOST` | smtp only | `smtp.gmail.com` | SMTP server |
@@ -268,17 +268,17 @@ See [`docs/TECH_STACK.md`](docs/TECH_STACK.md) for full security documentation. 
 
 ---
 
-## 📦 Input Data Format
+##  Input Data Format
 
 CSV/Excel columns (column names are case-insensitive):
 
 | Column | Type | Required | Description |
 |---|---|---|---|
-| `invoice_no` | string | ✅ | Unique invoice identifier |
-| `client_name` | string | ✅ | Debtor's full name |
-| `client_email` | string | ✅ | Debtor's email address |
-| `amount` | float | ✅ | Amount due |
-| `due_date` | date (YYYY-MM-DD) | ✅ | Original due date |
+| `invoice_no` | string |  | Unique invoice identifier |
+| `client_name` | string |  | Debtor's full name |
+| `client_email` | string |  | Debtor's email address |
+| `amount` | float |  | Amount due |
+| `due_date` | date (YYYY-MM-DD) |  | Original due date |
 | `currency` | string | | Default: INR |
 | `follow_up_count` | int | | Default: 0 |
 | `payment_link` | string | | Payment portal URL |
@@ -289,6 +289,6 @@ CSV/Excel columns (column names are case-insensitive):
 
 ---
 
-## 📄 License
+##  License
 
 MIT License. See `LICENSE` for details.
