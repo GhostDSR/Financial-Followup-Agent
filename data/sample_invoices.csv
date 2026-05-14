@@ -1,0 +1,9 @@
+invoice_no,client_name,client_email,amount,currency,due_date,days_overdue,follow_up_count,payment_link,contact_phone,account_manager
+INV-2024-001,Rajesh Kapoor,rajesh.kapoor@example.com,45000,INR,2025-04-20,24,2,https://pay.example.com/INV-2024-001,+91-98765-43210,Anita Sharma
+INV-2024-002,Priya Mehta,priya.mehta@techcorp.in,12500,INR,2025-04-25,19,1,https://pay.example.com/INV-2024-002,+91-87654-32109,Rohit Verma
+INV-2024-003,Sunita Rao,sunita.rao@globalfirm.com,88000,INR,2025-04-10,34,3,https://pay.example.com/INV-2024-003,+91-76543-21098,Anita Sharma
+INV-2024-004,Amit Desai,amit.desai@startup.io,6750,INR,2025-04-28,16,1,https://pay.example.com/INV-2024-004,+91-65432-10987,Rohit Verma
+INV-2024-005,Vikram Singh,vikram.singh@enterprise.co,230000,INR,2025-04-15,29,3,https://pay.example.com/INV-2024-005,+91-54321-09876,Anita Sharma
+INV-2024-006,Neha Joshi,neha.joshi@sme.net,18200,INR,2025-05-01,13,1,https://pay.example.com/INV-2024-006,+91-43210-98765,Rohit Verma
+INV-2024-007,Kiran Patel,kiran.patel@logistics.in,54000,INR,2025-04-22,22,2,https://pay.example.com/INV-2024-007,+91-32109-87654,Anita Sharma
+INV-2024-008,Deepak Malhotra,deepak.malhotra@retail.com,9900,INR,2025-05-03,11,0,https://pay.example.com/INV-2024-008,+91-21098-76543,Rohit Verma

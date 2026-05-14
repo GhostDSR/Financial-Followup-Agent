@@ -1,0 +1,25 @@
+# ── LLM ──────────────────────────────────────────────────
+anthropic>=0.25.0
+
+# ── Data ─────────────────────────────────────────────────
+pandas>=2.0.0
+openpyxl>=3.1.0          # Excel support
+
+# ── Validation ───────────────────────────────────────────
+pydantic>=2.5.0
+
+# ── Environment ──────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Email (optional) ─────────────────────────────────────
+sendgrid>=6.11.0          # only needed if EMAIL_MODE=sendgrid
+
+# ── Dashboard (optional) ─────────────────────────────────
+streamlit>=1.35.0
+
+# ── Scheduling (optional) ────────────────────────────────
+APScheduler>=3.10.0
+
+# ── Dev / Testing ────────────────────────────────────────
+pytest>=8.0.0
+pytest-mock>=3.12.0

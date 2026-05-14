@@ -1,0 +1,43 @@
+# ── Secrets ───────────────────────────────────────────────
+.env
+*.pem
+*.key
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Logs & DB (keep structure, ignore data) ───────────────
+logs/*.json
+logs/*.db
+!logs/.gitkeep
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── macOS ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Pytest ────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
