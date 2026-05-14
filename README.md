@@ -234,7 +234,7 @@ See [`docs/TECH_STACK.md`](docs/TECH_STACK.md) for full security documentation. 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Choice | Version |
 |---|---|---|
